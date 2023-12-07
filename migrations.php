@@ -14,7 +14,7 @@ $config = [
     'key' => $_ENV['SECRET_KEY']
 ];
 
-$app = new Application(dirname(__DIR__).'/lezione_fin', $config);
+$app = new Application(dirname(__DIR__).'/starter-code-api-security', $config);
 
 
 $app->db->applyMigrations();
